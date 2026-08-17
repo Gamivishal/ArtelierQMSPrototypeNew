@@ -1,0 +1,25 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# production / build output
+dist
+dist-ssr
+
+# testing & reports
+test-results
+visual-reports
+shots-*.png
+
+# vercel & IDE
+.vercel
+.vscode
+.idea
+*.suo
+*.user
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

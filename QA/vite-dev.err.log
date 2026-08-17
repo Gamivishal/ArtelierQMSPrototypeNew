@@ -1,0 +1,43 @@
+Error: [31m  Failed to scan for dependencies from entries:
+  C:/Users/CodexSandboxOffline/.codex/.sandbox/cwd/78a4769bd3ee756e/index.html
+
+  [39m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNo matching export in "src/App.tsx" for import "default"[0m
+
+    src/main.tsx:3:7:
+[37m      3 │ import [32mApp[37m from "./App";
+        ╵        [32m~~~[0m
+
+
+    at failureErrorWithLog (D:\VK\Projects\Personal\AI\PracticalApps\Artelier-QMS-Prototype\node_modules\esbuild\lib\main.js:1467:15)
+    at D:\VK\Projects\Personal\AI\PracticalApps\Artelier-QMS-Prototype\node_modules\esbuild\lib\main.js:926:25
+    at runOnEndCallbacks (D:\VK\Projects\Personal\AI\PracticalApps\Artelier-QMS-Prototype\node_modules\esbuild\lib\main.js:1307:45)
+    at buildResponseToResult (D:\VK\Projects\Personal\AI\PracticalApps\Artelier-QMS-Prototype\node_modules\esbuild\lib\main.js:924:7)
+    at D:\VK\Projects\Personal\AI\PracticalApps\Artelier-QMS-Prototype\node_modules\esbuild\lib\main.js:936:9
+    at new Promise (<anonymous>)
+    at requestCallbacks.on-end (D:\VK\Projects\Personal\AI\PracticalApps\Artelier-QMS-Prototype\node_modules\esbuild\lib\main.js:935:54)
+    at handleRequest (D:\VK\Projects\Personal\AI\PracticalApps\Artelier-QMS-Prototype\node_modules\esbuild\lib\main.js:628:17)
+    at handleIncomingPacket (D:\VK\Projects\Personal\AI\PracticalApps\Artelier-QMS-Prototype\node_modules\esbuild\lib\main.js:653:7)
+    at Socket.readFromStdout (D:\VK\Projects\Personal\AI\PracticalApps\Artelier-QMS-Prototype\node_modules\esbuild\lib\main.js:581:7)
+node:internal/fs/watchers:321
+    const error = new UVException({
+                  ^
+
+Error: EBUSY: resource busy or locked, watch 'C:\Users\CodexSandboxOffline\.codex\.sandbox\cwd\78a4769bd3ee756e\Artelier-QMS-Prototype.zip'
+    at FSWatcher.<computed> (node:internal/fs/watchers:321:19)
+    at Object.watch (node:fs:2548:36)
+    at createFsWatchInstance (file:///D:/VK/Projects/Personal/AI/PracticalApps/Artelier-QMS-Prototype/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:22195:17)
+    at setFsWatchListener (file:///D:/VK/Projects/Personal/AI/PracticalApps/Artelier-QMS-Prototype/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:22242:15)
+    at NodeFsHandler._watchWithNodeFs (file:///D:/VK/Projects/Personal/AI/PracticalApps/Artelier-QMS-Prototype/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:22397:14)
+    at NodeFsHandler._handleFile (file:///D:/VK/Projects/Personal/AI/PracticalApps/Artelier-QMS-Prototype/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:22461:23)
+    at NodeFsHandler._addToNodeFs (file:///D:/VK/Projects/Personal/AI/PracticalApps/Artelier-QMS-Prototype/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:22703:21)
+Emitted 'error' event on FSWatcher instance at:
+    at FSWatcher._handleError (file:///D:/VK/Projects/Personal/AI/PracticalApps/Artelier-QMS-Prototype/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:23896:10)
+    at NodeFsHandler._addToNodeFs (file:///D:/VK/Projects/Personal/AI/PracticalApps/Artelier-QMS-Prototype/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:22711:18) {
+  errno: -4082,
+  syscall: 'watch',
+  code: 'EBUSY',
+  path: 'C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\78a4769bd3ee756e\\Artelier-QMS-Prototype.zip',
+  filename: 'C:\\Users\\CodexSandboxOffline\\.codex\\.sandbox\\cwd\\78a4769bd3ee756e\\Artelier-QMS-Prototype.zip'
+}
+
+Node.js v24.16.0
